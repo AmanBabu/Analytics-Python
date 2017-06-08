@@ -1,0 +1,11 @@
+Create an empty dictionary called totals.
+Select only the rows in world_alcohol that match a given year. Assign the result to year.
+Loop through a list of countries. For each country:
+	Select only the rows from year that match the given country.
+	Assign the result to country_consumption.
+	Extract the fifth column from country_consumption.
+	Replace any empty string values in the column with the string 0.
+	Convert the column to the float data type.
+	Find the sum of the column.
+	Add the sum to the totals dictionary, with the country name as the key.
+After the code executes, you'll have a dictionary containing all of the country names as keys, with the associated alcohol consumption totals as the values.
